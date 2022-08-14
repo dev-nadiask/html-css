@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+
+
+        body {
+            font-family: 'Work sans', Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            cm, mm, in, px, pt, pc
+
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente = 1em
+            */
+            
+            font-size: 1em;
+            font-weight: bolder;
+            font-style: italic;
+            text-decoration: underline;
+
+            /* Lighter normal bold bolder */
+        }
+
+        h1 {
+            /*shorthand font
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-size: italic;
+           
+            
+            -font-style -> font-weight -> font-size -> font-family */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+
+        h2{
+            font: bold 2em 'Work Sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur, dignissimos! Rerum tempore corporis, in officia officiis itaque quam porro sint iure, iste aliquid ea aspernatur consectetur repellat! Sapiente, unde blanditiis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam qui aliquam unde atque laborum, nesciunt numquam cupiditate eaque nostrum molestias quae natus id, consequatur rerum ea corrupti! Nostrum, aperiam praesentium. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium quisquam repudiandae aut. Maxime aspernatur distinctio rem maiores quod nihil voluptatum aliquid temporibus sed laudantium necessitatibus nostrum, quia excepturi, natus quas?</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus odio eos tenetur debitis dolore dolor ut obcaecati id sunt voluptatibus. Quam consequatur, quia quisquam animi possimus hic sequi expedita neque.</p>
+</body>
+</html>
